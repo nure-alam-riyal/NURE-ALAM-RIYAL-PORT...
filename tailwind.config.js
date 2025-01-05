@@ -7,9 +7,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'ranch': ['Rancho' ],
+      'RubikVinyl': ['Rubik Vinyl' ],
+      'Lora': ['Lora', ],
+      'display': ['Oswald', ],
+      'DMSerifText': ['DM Serif Text' ],
+      'Kanit': ['Kanit' ],
+    },
     extend: {
       clipPath: {
-        custom: 'polygon(100% 0, 70% 66%, 100% 100%, 0 100%, 0 0)',
+        custom: 'polygon(100% 0, 91% 20%, 100% 39%, 100% 55%, 93% 77%, 100% 100%, 0 100%, 0 0)',
+        // custom: 'polygon(100% 0, 70% 66%, 100% 100%, 0 100%, 0 0)',
+        contactME: 'polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)',
         title:' polygon(0 0, 49% 6%, 100% 0, 72% 0, 49% 15%, 30% 0)',
         education:' polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)',
         

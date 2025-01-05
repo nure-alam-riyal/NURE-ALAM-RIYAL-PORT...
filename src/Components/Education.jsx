@@ -5,7 +5,7 @@ const Education = () => {
     return (
         <div  className="grid grid-cols-1  md:flex md:justify-center md:flex-wrap lg:grid lg:grid-cols-3 gap-6">
             <Fade direction="left">
-            <div className="card md:flex-1 bg-slate-100  clip-path-education shadow-xl">
+            <div className="card md:flex-1 z-40 bg-slate-100  clip-path-education shadow-xl">
                 <div className="card-body font-bold text-center">
                     <h2 className="text-xl ">Graduation</h2>
                     <p>Institute of Information Technology</p>

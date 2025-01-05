@@ -44,10 +44,10 @@ const Contact = () => {
   }
     return (
         <div  className="hero   mb-14">
-        <div className="hero-content w-11/12  justify-between flex-col lg:flex-row">
+        <div className="hero-content w-11/12 max-w-none  justify-between flex-col lg:flex-row">
          {/* <Fade className="w-full" direction="up "> */}
          <div className=" w-full lg:w-1/2 bg-base-200 p-10 rounded-[16px] h-full md:clip-path-contact1  ">
-            <h1 className="text-4xl text-center md:text-left font-bold ">MD NURE ALAM RIYAL</h1>
+            <h1 className="text-4xl text-center md:text-left font-bold ">NURE ALAM RIYAL</h1>
             <p className="flex gap-2 text-2xl items-center mt-4 "><FaMapMarkerAlt />Jahangirnagor University,<br />Dhaka, Bangladesh </p>
             <p className="flex gap-2 text-2xl items-center flex-wrap mt-4 "><MdOutlineEmail></MdOutlineEmail>nariyal1050@gmail.com</p>
             <p className="flex gap-2 text-2xl items-center mt-4 "><FaPhone></FaPhone>01617640464</p>

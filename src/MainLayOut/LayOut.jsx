@@ -8,11 +8,12 @@ import NavBar from "../Components/NavBar";
 import Skill from "../Components/Skill";
 import Title from "../Components/Title";
 import {  FaArrowCircleUp } from "react-icons/fa";
+import Project from "../Components/Project";
 
 
 const LayOut = () => {
     return (
-        <div className="md:w-11/12 mx-auto">
+        <div className="w-11/12  mx-auto">
             <NavBar></NavBar>
             <Banner></Banner>
           <div id="about">
@@ -26,6 +27,7 @@ const LayOut = () => {
             <div id="education">  <Title  title={'Education'}></Title></div>
             <Education></Education>
             <div id="project">  <Title  title={'Project'}></Title></div>
+            <Project></Project>
             <div id="contact">   <Title  title={'Contact me'}></Title></div>
             <Contact></Contact>
             <div className="relative ">
