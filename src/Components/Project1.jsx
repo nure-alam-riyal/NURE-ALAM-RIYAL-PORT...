@@ -44,11 +44,11 @@ const Project1 = () => {
                     
                 </div>
             </Carousel>
-            <div className="flex justify-center flex-wrap gap-5">
-                <button className="btn bg-blue-300 font-semibold text-xl "><a className="w-full h-full flex items-center" target="_blank" href="https://resturant-management-106b2.web.app/">Live Preview</a></button>
-                <button className="btn bg-blue-300 font-semibold text-xl "><a className="w-full h-full flex items-center" target="_blank" href="https://github.com/programming-hero-web-course2/b10a11-client-side-nure-alam-riyal">Git Client</a></button>
-                <button className="btn bg-blue-300 font-semibold text-xl "><a className="w-full h-full flex items-center" target="_blank" href="https://github.com/programming-hero-web-course2/b10a11-server-side-nure-alam-riyal">Git Server</a></button>
-                <button className="btn bg-blue-300 font-semibold text-xl "><a className="w-full h-full flex items-center" target="_blank" href="https://github.com/programming-hero-web-course2/b10a11-client-side-nure-alam-riyal/blob/main/README.md">Details</a></button>
+            <div className="flex justify-center text-white flex-wrap gap-5">
+                <button className="btn bg-blue-300 font-semibold text-xl "><a className="w-full text-white h-full flex items-center" target="_blank" href="https://resturant-management-106b2.web.app/">Live Preview</a></button>
+                <button className="btn bg-blue-300 font-semibold text-xl "><a className="w-full text-white h-full flex items-center" target="_blank" href="https://github.com/programming-hero-web-course2/b10a11-client-side-nure-alam-riyal">Git Client</a></button>
+                <button className="btn bg-blue-300 font-semibold text-xl "><a className="w-full text-white h-full flex items-center" target="_blank" href="https://github.com/programming-hero-web-course2/b10a11-server-side-nure-alam-riyal">Git Server</a></button>
+                <button className="btn bg-blue-300 font-semibold text-xl "><a className="w-full text-white h-full flex items-center" target="_blank" href="https://github.com/programming-hero-web-course2/b10a11-client-side-nure-alam-riyal/blob/main/README.md">Details</a></button>
             </div>
             </div>
         </div>

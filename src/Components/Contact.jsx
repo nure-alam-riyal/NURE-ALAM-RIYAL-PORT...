@@ -48,11 +48,11 @@ const Contact = () => {
          {/* <Fade className="w-full" direction="up "> */}
          <div className=" w-full lg:w-1/2 bg-base-200 p-10 rounded-[16px] h-full md:clip-path-contact1  ">
             <h1 className="text-4xl text-center md:text-left font-bold ">NURE ALAM RIYAL</h1>
-            <p className="flex gap-2 text-2xl items-center mt-4 "><FaMapMarkerAlt />Jahangirnagor University,<br />Dhaka, Bangladesh </p>
-            <p className="flex gap-2 text-2xl items-center flex-wrap mt-4 "><MdOutlineEmail></MdOutlineEmail>nariyal1050@gmail.com</p>
-            <p className="flex gap-2 text-2xl items-center mt-4 "><FaPhone></FaPhone>01617640464</p>
-            <p className="flex gap-2 text-2xl items-center mt-4 "><FaWhatsapp></FaWhatsapp>01617640464</p>
-            <p className="flex gap-2 text-2xl items-center mt-4 "><FaTelegram></FaTelegram>01617640464</p>
+            <p className="flex gap-2 text-2xl items-center mt-4 ">          <FaMapMarkerAlt className="text-red-200"/>Jahangirnagor University,<br />Dhaka, Bangladesh </p>
+            <p className="flex gap-2 text-2xl items-center flex-wrap mt-4 "><MdOutlineEmail className="text-red-200"></MdOutlineEmail>nariyal1050@gmail.com</p>
+            <p className="flex gap-2 text-2xl items-center mt-4 ">          <FaPhone className="text-red-200"></FaPhone>01617640464</p>
+            <p className="flex gap-2 text-2xl items-center mt-4 ">          <FaWhatsapp className="text-red-200"></FaWhatsapp>01617640464</p>
+            <p className="flex gap-2 text-2xl items-center mt-4 ">          <FaTelegram className="text-red-200"></FaTelegram>01617640464</p>
           </div>
          {/* </Fade>
          <Fade className="w-full" direction="down"> */}

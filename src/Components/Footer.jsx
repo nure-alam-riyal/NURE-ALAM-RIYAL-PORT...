@@ -2,7 +2,7 @@ import logo from '../assets/NAR.png'
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center bg-green-200 text-black  p-10">
+        <footer className="footer footer-center bg-red-100 text-black  p-10">
   <aside>
     <img className='w-32 h-32 rounded-full' src={logo} alt="" />
     <p className="font-bold font-ranch text-2xl">

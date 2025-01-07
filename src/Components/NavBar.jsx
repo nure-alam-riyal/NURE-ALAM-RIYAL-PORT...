@@ -6,15 +6,15 @@ import resume from '../assets/hr@abc.pdf'
 const NavBar = () => {
     const links=
     <>
-                       <li className="hover:text-blue-300 text-center ml-5"><a href='#about'>about me</a></li>
-                       <li className="hover:text-blue-300 text-center ml-5"><a href='#skill'>Skill</a></li>
-                       <li className="hover:text-blue-300 text-center ml-5"><a href='#education'>EDUCATION</a></li>
-                       <li className="hover:text-blue-300 text-center ml-5"><a href='#project'>Project</a></li>
-                       <li className="hover:text-blue-300 text-center ml-5"><a href='#contact'>contact me</a></li>
+                       <li className="hover:text-blue-300 text-center  flex justify-center text-white"><a className='text-center block' href='#about'>about me</a></li>
+                       <li className="hover:text-blue-300 text-center  flex justify-center text-white"><a className='text-center block' href='#skill'>Skill</a></li>
+                       <li className="hover:text-blue-300 text-center  flex justify-center text-white"><a className='text-center block' href='#education'>EDUCATION</a></li>
+                       <li className="hover:text-blue-300 text-center  flex justify-center text-white"><a className='text-center block' href='#project'>Project</a></li>
+                       <li className="hover:text-blue-300 text-center  flex justify-center text-white"><a className='text-center block' href='#contact'>contact me</a></li>
     </>   
     return (
         <div className="  flex justify-center ">
-            <div className="navbar px-0 bg-black w-full backdrop-blur-xl bg-opacity-5 z-40 fixed">
+            <div className="navbar px-0 bg-white w-full backdrop-blur-xl bg-opacity-20 z-40 fixed">
    <div className=" w-11/12 mx-auto ">
    <div className="navbar-start flex justify-start items-center mt-0">
     <div className="dropdown">
@@ -34,7 +34,7 @@ const NavBar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm uppercase font-semibold clip-path-education text-center text-xl dropdown-content bg-blue-300 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm uppercase font-semibold clip-path-education text-center text-xl dropdown-content bg-red-300 rounded-box z-[1] mt-3 w-52 p-2 shadow">
         
     {links}
       </ul>
@@ -49,12 +49,12 @@ const NavBar = () => {
   <div className="navbar-end  ">
   <div className='flex justify-center  items-center flex-col'>
                 <a className='flex' download='pdf' href={resume}>
-                <button className='font-semibold btn text-lg bg-red-300'>Resume <br /><motion.div
+                <button className='font-semibold btn text-lg text-white bg-red-300'>Resume <br /><motion.div
                
                animate={{y:[-8,8,-8],
                 transition:{duration:3,repeat:Infinity}
                }
-            }> <FaDownload></FaDownload></motion.div></button>
+            }> <FaDownload className='text-black'></FaDownload></motion.div></button>
                 </a>
                </div>
   </div>

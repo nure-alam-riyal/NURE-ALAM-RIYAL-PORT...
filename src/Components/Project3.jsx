@@ -54,10 +54,10 @@ const Project3 = () => {
                         </div>
                     </Carousel>
                     <div className="flex justify-center flex-wrap gap-5">
-                        <button className="btn bg-blue-300 font-semibold text-xl"><a target="_blank"  className="w-full h-full flex items-center" href="https://career-counselling-c2f64.web.app/">Live Preview</a></button>
-                        <button className="btn bg-blue-300 font-semibold text-xl"><a target="_blank"  className="w-full h-full flex items-center" href="https://github.com/programming-hero-web-course1/b10-a9-authentication-nure-alam-riyal">Git Client</a></button>
-                    {/* <button className="btn bg-blue-300 font-semibold text-xl"><a target="_blank"  className="w-full h-full flex items-center"    href="https://github.com/programming-hero-web-course2/b10a11-server-side-nure-alam-riyal"></a>Git Server</button> */}
-                        <button className="btn bg-blue-300 font-semibold text-xl"><a target="_blank"  className="w-full h-full flex items-center" href="https://github.com/programming-hero-web-course1/b10-a9-authentication-nure-alam-riyal/blob/main/README.md">Details</a></button>
+                        <button className="btn bg-blue-300 font-semibold text-xl"><a target="_blank"  className="text-white w-full h-full flex   items-center" href="https://career-counselling-c2f64.web.app/">Live Preview</a></button>
+                        <button className="btn bg-blue-300 font-semibold text-xl"><a target="_blank"  className="text-white w-full h-full flex items-center" href="https://github.com/programming-hero-web-course1/b10-a9-authentication-nure-alam-riyal">Git Client</a></button>
+                    {/* <button className="btn bg-blue-300 font-semibold text-xl"><a target="_blank"  className="text-white w-full h-full flex items-center"    href="https://github.com/programming-hero-web-course2/b10a11-server-side-nure-alam-riyal"></a>Git Server</button> */}
+                        <button className="btn bg-blue-300 font-semibold text-xl"><a target="_blank"  className="text-white w-full h-full flex items-center" href="https://github.com/programming-hero-web-course1/b10-a9-authentication-nure-alam-riyal/blob/main/README.md">Details</a></button>
                     </div>
                     </div>
                 </div>
