@@ -34,7 +34,7 @@ const Contact = () => {
     }
     emailjs.send('service_3dyfati', 'template_qdzlmyg', info).then(
       () => {
-        toast('Thank you for your cooment');
+        toast.success('Thank you for your coment');
       },
       (error) => {
         toast('FAILED...', error);

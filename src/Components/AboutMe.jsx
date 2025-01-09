@@ -29,7 +29,7 @@ const AboutMe = () => {
                 animate={{opacity:[.1,.3,.5,.7,1],
                     transition:{duration:6,delay:1}
                 }}
-                className="lg:">Hi, This is <b className="text-red-400">Riyal</b>, a web developer who loves creating websites that are both useful and easy to use. With  a background in <b>Information and communication of technology</b>, I focus on building responsive websites and web apps that work well on any device.
+                className="lg:">Hi, This is <b className="text-red-400">Riyal</b>, a web developer who loves creating websites that are both useful and easy to use. With  a background in <b className="text-red-400">Information and communication of technology</b>, I focus on building responsive websites and web apps that work well on any device.
                     <br />
                     I work with tools like <b className="text-red-400"> JavaScript, React.js, Tailwind Css, Bootstarp, Firebase, github, HTML, CSS, Node.js, Express.js, MongoDB</b> and  always learn new skills to keep up with the latest trends. I enjoy solving problems, designing simple and clear user interfaces, and turning creative ideas into reality.
                     <br />

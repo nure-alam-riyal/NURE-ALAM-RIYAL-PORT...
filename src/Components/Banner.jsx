@@ -31,8 +31,9 @@ const Banner = () => {
                 <div  className='flex flex-wrap text-4xl gap-3 w-[200px] mx-auto grid-cols-3 justify-center text-center my-6'>
                 <div><a target="_blank" href='https://www.facebook.com/nurealomriyal.riyal'><img className='w-10' src="https://img.icons8.com/?size=100&id=uLWV5A9vXIPu&format=png&color=000000" alt="" /></a></div>
                 <div><a target="_blank" href='https://x.com/nurealamriyal'><img className='w-10' src="https://img.icons8.com/?size=100&id=phOKFKYpe00C&format=png&color=FA5252" alt="" /></a></div>
-                <div><a target="_blank" href='https://www.facebook.com/nurealomriyal.riyal'><img className='w-10' src="https://img.icons8.com/?size=100&id=kBCrQMzpQDLQ&format=png&color=000000" alt="" /></a></div>
+                <div><a target="_blank" href='https://www.linkedin.com/in/nure-alam-riyal/'><img className='w-10' src="https://img.icons8.com/?size=100&id=kBCrQMzpQDLQ&format=png&color=000000" alt="" /></a></div>
                 <div><a target="_blank" href='https://www.instagram.com/na_riyal_71/profilecard/?igsh=czRwbWJyaHBkaQ%3D%3D'><img className='w-10' src="https://img.icons8.com/?size=100&id=BrU2BBoRXiWq&format=png&color=000000" alt="" /></a></div>             
+                <div><a target="_blank" href='https://github.com/nure-alam-riyal'><img className='w-10' src="https://img.icons8.com/?size=100&id=bVGqATNwfhYq&format=png&color=000000" alt="" /></a></div>             
                </div>
                <div className='flex justify-center  items-center flex-col'>
                 <a className='flex' target="_blank" download='pdf' href={resume}>
