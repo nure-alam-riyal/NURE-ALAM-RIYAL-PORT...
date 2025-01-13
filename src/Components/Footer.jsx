@@ -1,4 +1,4 @@
-import logo from '../assets/NAR.png'
+import logo from '../assets/Riyal (2).png'
 
 const Footer = () => {
     return (

@@ -1,5 +1,5 @@
 import { FaDownload } from 'react-icons/fa';
-import logo from '../assets/NAR.png'
+import logo from '../assets/Riyal (2).png'
 import { motion } from "motion/react"
 import resume from '../assets/hr@abc.pdf'
 
@@ -39,7 +39,7 @@ const NavBar = () => {
     {links}
       </ul>
     </div>
-   <div className='flex justify-start h-full items-center'><img className='w-16  rounded-full' src={logo} alt="" /></div>
+   <div className='flex justify-start h-full items-center'><img className='w-10 object-cover rounded-full' src={logo} alt="" /></div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu uppercase font-semibold text-xl menu-horizontal mt-0 px-1">

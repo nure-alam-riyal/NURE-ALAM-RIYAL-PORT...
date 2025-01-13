@@ -18,7 +18,7 @@ const Banner = () => {
                <motion.h1 
                 animate={{color:['#f54245','#f54295','#d742f5','#9042f5','#4260f5','#42bcf5',"#42f5dd",'#4ef542','#a4f542','#f56942'],
                     transition:{duration:10,repeat:Infinity}}}
-               className='md:text-6xl text-4xl  font-bold text-center font-RubikVinyl tracking-widest uppercase'>Fornt-end <p className='ml-10'> developer</p></motion.h1>
+               className='md:text-6xl text-4xl  font-bold text-center font-RubikVinyl tracking-widest uppercase'>Front-end <p className='ml-10'> developer</p></motion.h1>
                 <p className='text-center px-5 text-black text-xl'> 
                                     <Typewriter
                                      typeSpeed={20}
