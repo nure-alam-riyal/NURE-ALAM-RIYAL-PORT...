@@ -13,6 +13,11 @@ const Banner = () => {
            }}
            className='rounded-full w-72 h-72 lg:w-60 lg:h-60 border-4 p-2 bg-white  border-red-200 scale-125' src={riyal} alt="" />
             </div>
+
+
+
+
+
             <div  className='lg:w-2/3 banner-bg py-6 lg:py-2 rounded-2xl clip-path-custom mt-8 flex justify-center items-center'>
                <div className='w-3/4 '>
                <motion.h1 
@@ -23,7 +28,7 @@ const Banner = () => {
                                     <Typewriter
                                      typeSpeed={20}
                                       deleteSpeed={20}
-                                       cursorStyle
+                          cursorStyle
                                         cursor
                                          loop
                                           words={['Creating the visual and interactive elements of websites',' JavaScript, react.js, mongoDB, Node.js, express.js, Tailwind CSS, GitHub to deliver seamless and engaging user experiences']}></Typewriter>
@@ -47,6 +52,8 @@ const Banner = () => {
                 </a>
                </div>
                </div>
+
+
             </div>
            
         </div>
