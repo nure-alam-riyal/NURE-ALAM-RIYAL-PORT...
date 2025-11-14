@@ -54,6 +54,12 @@ const Contact = () => {
           <p className="flex gap-2 text-2xl items-center mt-4 ">          <FaWhatsapp className="text-red-200"></FaWhatsapp>+8801617640464</p>
           <p className="flex gap-2 text-2xl items-center mt-4 ">          <FaTelegram className="text-red-200"></FaTelegram>+8801617640464</p>
         </div>
+
+
+
+
+
+        
         {/* </Fade>
          <Fade className="w-full" direction="down"> */}
         <div className="card  w-full lg:w-1/2 md:clip-path-contact2  bg-base-200   shrink-0 ">

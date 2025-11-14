@@ -16,7 +16,7 @@ const Education = () => {
             </div>
             </Fade>
             <Fade direction="down">
-            <div className="card md:flex-1 education-bg  clip-path-education shadow-xl">
+            <div className="card md:flex-1 h-full w-full education-bg  clip-path-education shadow-xl">
                 <div className="card-body font-bold  text-center">
                     <h2 className=" text-xl ">HSC</h2>
                     <p>Science</p>
